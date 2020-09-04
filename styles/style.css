@@ -1,0 +1,79 @@
+
+section, main, body, header {
+    border: solid 1px black;
+}
+
+.top, .subheader {
+    border: solid 1px black;
+}
+
+
+body {
+    background: white;
+    width: fit-content;
+}
+
+main {
+  width: fit-content;
+}
+
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-area: 100%;
+    justify-content: space-between;
+    
+ }
+
+
+.right-buttons {
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%; 
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    justify-content: space-between;
+    
+
+    
+}
+
+.airbnb-logo {
+    align-content: left;  
+}
+
+.subheader { 
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    width: auto;
+}
+
+.searchprotocol {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    width: auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.comment {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    width: auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.header {
+    text-align: left;
+    width: auto; 
+}
+
+.ahhh {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%; 
+    width: auto;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
